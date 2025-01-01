@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Open Sans", serif;
+}
+
+h1,
+h2,
+.proceed {
+  font-family: "Roboto Condensed", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 800;
+}
+
+.mother-background {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./assets/uw.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.major-container {
+  background-color: #432875f6;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 800px;
+  height: auto;
+  background-color: white;
+}
+
+.logo-head {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.main {
+  padding: 1.2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: #f7f6f2;
+}
+
+.proceed {
+  background-color: #432875;
+  color: white;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.text {
+  font-size: 1.3rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #432875;
+}
+
+.login {
+  display: flex;
+  height: 360px;
+}
+
+form,
+.left {
+  width: 50%;
+}
+
+.login-big {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5rem;
+}
+
+.major-login {
+  margin: auto;
+  width: 580px;
+  background-color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: flex-start;
+  border-right: 1px solid black;
+}
+
+.left {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a,
+p {
+  font-size: 14px;
+}
+
+p {
+  text-shadow: 0px 0px 0.3px black;
+}
+
+input {
+  padding: 3px;
+  border: 1px solid rgba(112, 128, 144, 0.29);
+  height: 33px;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid rgba(112, 128, 144, 0.392);
+}
+
+label {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  text-shadow: 0px 0px 0.3px black;
+}
+
+.submit {
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #ccc;
+  background-color: whiteSmoke;
+  color: #333;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0.6rem 1rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  text-shadow: 0px 0px 0.3px black;
+}
+
+.footer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.error-message {
+  font-size: 1rem;
+  color: inherit;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.error-signin{
+  color: ;
+}
+
+.error{
+  color: #600000;
+  width: 60%;
+}
