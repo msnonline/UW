@@ -108,6 +108,7 @@ const Login = () => {
               <input
                 type="text"
                 name="netID"
+                placeholder="UW NetID"
                 value={formData.netID}
                 onChange={handleFieldChange}
               />
@@ -117,6 +118,7 @@ const Login = () => {
               <input
                 type="password"
                 name="password"
+                placeholder="Password"
                 value={formData.password}
                 onChange={handleFieldChange}
               />
